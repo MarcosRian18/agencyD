@@ -1,0 +1,342 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  background-color: #7171ff;
+  display: flex;
+  justify-content: space-around;
+}
+
+header img {
+  width: 250px;
+  height: 80px;
+  align-self: center;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.home {
+  width: 100%;
+  height: 87.4vh;
+  background: url("../imgs/luca-bravo-fyoEHlbcqJQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 90%;
+  filter: brightness(90%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.leftContent {
+  position: relative;
+  padding: 50px;
+  margin-left: 140px;
+  color: white;
+}
+
+.leftContent p {
+  font-size: 1.2rem;
+}
+.leftContent h1 {
+  font-size: 3.5rem;
+}
+
+.leftContent h2 {
+  background-image: linear-gradient(120deg, red, rgb(179, 255, 0));
+  color: transparent;
+  background-clip: text;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.rightContent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  height: 550px;
+  margin-right: 120px;
+}
+.rightContent img {
+  border: 2px solid rgb(39, 1, 255);
+  border-radius: 30px;
+  box-shadow: 0px 0px 200px rgb(111, 0, 255);
+  width: 250px;
+  height: 180px;
+  position: absolute;
+}
+
+.rightContent .img2 {
+  position: absolute;
+  top: 30%;
+  left: 0px;
+  z-index: 2;
+}
+
+.rightContent .img3 {
+  position: absolute;
+  top: 55%;
+  z-index: 2;
+}
+
+.contentCatalog{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../imgs/nasa-Q1p7bh3SHj8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftContentCatalog p{
+  color: white;
+  font-size: 1.5rem;
+}
+.contentCatalog img{
+width: 150px;
+}
+
+.leftContentCatalog .line{
+  margin-left: 150px;
+  width: 350px;
+  height: 3px;
+  background: linear-gradient(120deg, red, yellow);
+  box-shadow: 0px 5px 10px red;
+  margin-bottom: 20px;
+}
+
+.leftContentCatalog h1{
+  background-image: linear-gradient(180deg, rgba(255, 238, 0, 0.678), rgb(255, 0, 0));
+  color: transparent;
+  background-clip: text;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.leftContentCatalog{
+  background-color: rgb(142, 54, 224,0.7);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.leftContentCatalog button{
+  font-size: 1.1rem;
+  width: 250px;
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  background-color: #7171ff;
+  border-style: none;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.listPersonTeam{
+  position: relative;
+  top: -15%;
+  right: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3em;
+  justify-content: space-around;
+  flex-direction: 1fr 1fr;
+  width: 400px;
+  height: 400px;
+}
+
+.listPersonTeam img{
+  width: 220px;
+  height: 240px;
+  border: 2px solid red;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.works {
+  width: 100%;
+  height: 100vh;
+  background: #010032;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.works .title {
+  margin-bottom: 20px;
+}
+
+.works h1 {
+  font-family: "Roboto", sans-serif;
+  text-shadow: 0px 2px 10px red;
+  background-image: linear-gradient(45deg, rgb(255, 238, 0), rgb(139, 0, 0));
+  color: transparent;
+  background-clip: text;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.works .line {
+  width: 350px;
+  height: 3px;
+  background: linear-gradient(120deg, red, yellow);
+  box-shadow: 0px 5px 10px red;
+  margin: 0 auto 30px auto;
+}
+
+.cards {
+  width: 80%;
+  max-width: 1000px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.card{
+  width: 150px;
+  height: 600px;
+  background: #007bff;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card h4{
+  color: white;
+  text-decoration: underline;
+  font-size: 1.4rem;
+}
+
+.card h2{
+  color: red;
+  font-size: 2.8rem;
+}
+
+.description{
+  color: white;
+  font-size: 1.2rem;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.card:hover{
+  width: 300px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.card1{
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('../../blog/imgs/Basilica.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card2{
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('../../blog/imgs/burjKhalifa.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card3{
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('../../blog/imgs/elateno.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card4{
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('../../blog/imgs/fushimi\ inari.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card5{
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('../../blog/imgs/machu.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.latestContent {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.212)), url('../imgs/milad-fakurian-GL-xypzEQ5o-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.leftContentLatest {
+  max-width: 600px;
+  color: #fff;
+}
+
+.leftContentLatest img {
+  margin-bottom: 20px;
+}
+
+.leftContentLatest p {
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.social-icons li {
+  display: inline-block;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 54px;
+}
+
+.latestContent img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
